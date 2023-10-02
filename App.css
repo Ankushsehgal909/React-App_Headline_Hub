@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url(./image/Homepage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Navbar-bg {
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.navbar-ele a:hover,
+.navbar-ele a.active {
+  color: rgba(36, 36, 255, 0.726);
+}
+
+.navbar-select:hover::before {
+  width: 5%;
+}
+.Navbar-content {
+  margin-left: 20%;
+}
+.card-bg {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  min-height: 1rem;
+}
+.Homepage {
+  height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Homepage-content {
+  width: 60rem;
+  height: 25rem;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 8px 8px 4px rgba(27, 50, 58, 0.644);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+.Homepage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-btn {
+  background: transparent(10px);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  box-shadow: 0px 1px 5px 2px rgba(15, 76, 207, 0.541);
+}
